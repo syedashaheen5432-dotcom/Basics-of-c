@@ -30,6 +30,14 @@ int->%d, float->%f,char->%c, double->%lf.
 printf-> it is a libary function which is use to dislpay the is used to display the output.it shows output not input.
 printf-> print on the screen it belongs to the standard I/O library (stdio.h).
 printf("a=%d\n",a);-> a=10 will be displayed on the screen.it will not occupy any storage it is a dummy statement.here (\n means next line).
+scanf stands for "scan formatted". It is a standard library function used to read data from the keyboard (standard input) and store it into variables. 
+scanf("format_specifier", &variable); -> & (Address-of Operator): Crucial for most types. It provides the memory address of the variable so scanf knows where to save the data.
+scanf("%d", &a);// in scanf we dont use any kind of \n,\t or comma(,) .
+return 0; ->tells the compiler that the program has executed successfully. it sends 0 back to operating system(int main).
+0-> success, non-zero value-> error or abnormal termination.
+After (;) the program will end with } 
+It will start from main and end at }
+
 
 
 
