@@ -1,5 +1,5 @@
 # Basics-of-c
-Why were programming languages introduced?
+**Why were programming languages introduced?
 They were introduced to solve problems that humans cannot solve efficiently on their own.
 A compiler is a tool that converts your high-level code (like C) into machine code. When you write a program, the compiler checks it for errors, translates it, and produces an executable file.
 After that, the program runs on your computer. So, the process is: you write, compile, and then execute!
@@ -36,7 +36,7 @@ scanf("%d", &a);// in scanf we dont use any kind of \n,\t or comma(,) .
 return 0; ->tells the compiler that the program has executed successfully. it sends 0 back to operating system(int main).
 0-> success, non-zero value-> error or abnormal termination.
 After (;) the program will end with } 
-It will start from main and end at }
+It will start from main and end at }***
 
 
 
