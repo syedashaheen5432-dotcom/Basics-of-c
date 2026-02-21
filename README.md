@@ -1,6 +1,8 @@
 # Basics-of-c
 Why were programming languages introduced?
 They were introduced to solve problems that humans cannot solve efficiently on their own.
+A compiler is a tool that converts your high-level code (like C) into machine code. When you write a program, the compiler checks it for errors, translates it, and produces an executable file.
+After that, the program runs on your computer. So, the process is: you write, compile, and then execute!
 The C programming starts with the line #include <stdio.h>.
 #include <stdio.h> contains a standard library function.
 so we include this functions in our program it is necessary to write for beginning of a program, but execution starts from main().
@@ -21,8 +23,13 @@ int → data type
 a → variable name
 10 → integer value
 ;-> is called full stop(statement terminator in c).
+Now before discussing about printf(),scanf() we have to know about Format specifier.
+A Format specifier is a special symbol used in C to tell the compiler what type of data is being input or output.
+Format specifier are used in printf(),scanf(). They always start with %.
+int->%d, float->%f,char->%c, double->%lf.
 printf-> it is a libary function which is use to dislpay the is used to display the output.it shows output not input.
 printf-> print on the screen it belongs to the standard I/O library (stdio.h).
-printf("Hello");-> Hello will be displayed on the screen.it will not occupy any storage it is a dummy statement.
-Now before discussing about scanf we have to know about Format specifier.
-A Format specifier is a special symbol used in C to tell the compiler what type of data is being input or output.
+printf("a=%d\n",a);-> a=10 will be displayed on the screen.it will not occupy any storage it is a dummy statement.here (\n means next line).
+
+
+
