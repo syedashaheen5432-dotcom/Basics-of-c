@@ -37,10 +37,6 @@ return 0; ->tells the compiler that the program has executed successfully. it se
 0-> success, non-zero value-> error or abnormal termination.
 After (;) the program will end with } 
 It will start from main and end at }***
-'''c
-gchhukkokkh
-njkbnk
-bjkm
 
 
 
